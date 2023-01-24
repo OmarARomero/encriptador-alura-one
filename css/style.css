@@ -1,0 +1,128 @@
+.imagen{
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.titulo{
+  margin: 20px;
+  margin-bottom: 5%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+body{
+  background-color: #f3f5fc;
+}
+
+.layout {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.texto{
+  margin:  0px 50px;
+}
+
+#areaTexto{
+  width: 60%;
+  height: 334px;
+  margin-left: 20%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f3f5fc;
+  padding: 10px;
+  display: inline-block;
+}
+
+#mostrarTexto{
+  margin-right: 5%;
+  width: 30%;
+  height: 60%;
+  border-color: #1B4F72;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+
+#imagenalura{
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 70%;
+  height: auto;
+}
+
+#textoEncriptado{
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  border: none;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  margin: 20px;
+  margin-left: 20%;
+  background-color: #EAF2F8;
+  color: #1B4F72;
+  border: 2px solid #1B4F72;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.button1:hover {
+  background-color: #1B4F72;
+  color: white;
+}
+
+.button2 {
+  margin: 20px 10px;
+  background-color: #EAF2F8;
+  color: #1B4F72;
+  border: 2px solid #1B4F72;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.button2:hover {
+  background-color: #1B4F72;
+  color: white;
+}
+
+.button3 {
+  margin: 20px;
+  background-color: #EAF2F8;
+  color: #1B4F72;
+  border: 2px solid #1B4F72;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.button3:hover {
+  background-color: #1B4F72;
+  color: white;
+}
+
+.pie{
+  margin-top: 5%;
+  text-align: center;
+  background-image: url(../imagenes/footer.jpg);
+  padding:  30px;
+  color: #f3f5fc;
+  font-size: small;
+}

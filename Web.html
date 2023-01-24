@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Encriptador/Desencriptador Alura</title> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/main.js"></script>
+  </head>
+
+
+  <header>       
+    <img src="imagenes/logo-alura.png" class="imagen">
+  </header>
+  <body>
+    <script src="js/main.js"></script>
+    <main>
+
+      <h2 class="titulo">Encriptar/Desencriptar</h2>
+
+      <section class="layout">
+
+        <div class="texto">
+                
+         <textarea id="areaTexto" name="texto" cols="40" rows="20" placeholder ="Ingrese el texto aquí "></textarea>
+         
+         <button class="button button1" onclick="encriptar();">Encriptar</button>
+         <button class="button button2" onclick="desencriptar();">Desencriptar</button>
+         <button class="button button3" onclick="copy('textoEncriptado')">Copiar</button>
+         
+        </div>
+
+        <div id="mostrarTexto">
+
+          <img  id="imagenalura" src="imagenes/muneco-alura.png" alt="Imagen Alura">
+
+          <textarea id="textoEncriptado" name="texto" cols="20" rows="20" placeholder="Ningun mensaje fue encontrado"></textarea>
+                  
+                    
+        </div>
+
+      </section>
+            
+            
+    </main>
+
+    <footer>
+
+      <p class="pie"> &copy pagina creada por Omar parte del programa One de Oracle.</p>
+           
+    </footer>
+  
+  </body>
+  
+</html>
+  
